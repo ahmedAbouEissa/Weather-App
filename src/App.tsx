@@ -136,7 +136,7 @@ function App() {
             alt="icon"
           />
         </div>
-        {loading && <h2 className="handle-messages">...Loading</h2>}
+        {loading && <h2 className="handle-messages">Loading...</h2>}
         {!loading &&
           !error &&
           weatherData.main.temp &&
